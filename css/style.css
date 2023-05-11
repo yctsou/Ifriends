@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+html, body{
+    height:100%;
+}
+body{
+ /*    background: linear-gradient(to right, #57c8ec , #1d39a4 );   Standard syntax */
+    background-image: url("../logo/page2.jpg");
+    background-size: cover;
+/*    background: #00c2ff; */
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: table;
+}
+.container span{
+    display: block;
+}
+.row{
+    display: table-cell;
+}
+.text1{
+    color: white;  
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+/*
+.text2{
+    font-size: 40px;
+    color: darkblue;
+    font-family: Georgia, serif;
+} */
+.t21{
+    font-size: 40px;
+    color: darkblue;
+    font-family: Georgia, serif;
+    position: relative;
+    animation: t2-1 3s 1;
+}
+.t22{
+    font-size: 40px;
+    color: darkblue;
+    font-family: Georgia, serif;
+    position: relative;
+    animation: t2-2 3s 1;
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -50px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -50px;
+        }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -50px;
+    }
+}
+@keyframes t2-1{
+    0%{
+        color: red;
+        margin-left: 0px;
+    }
+    30%{
+        color: green;
+        margin-bottom: -100px;
+    }
+    85%{
+        color: orange;
+        margin-left: 0px;
+    }
+}
+@keyframes t2-2{
+    0%{
+        color: red;
+        margin-left: 500px;
+    }
+    30%{
+        color: green;
+        margin-bottom: -100px;
+    }
+    85%{
+        color: orange;
+        margin-left: 500px;
+    }
+}

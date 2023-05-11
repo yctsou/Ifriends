@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/*
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+/*
+body{
+    background: linear-gradient(to bottom, #1da47c, #57c8ec );   Standard syntax 
+    background-image: url("../logo/airline.JPG"); 
+	background-position: center;	
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+body::-webkit-scrollbar {
+    width: 0px;               /* width of the entire scrollbar */
+}
+.photo{
+    background: linear-gradient(to top, #b2c34a, #e4f487 );
+	background-position: center;	
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+
+}
+.photo p{
+    padding: 10px;
+    font-size: 30px;
+    font-family: serif;
+}
+.photo{
+ /*   padding-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: serif; */
+    align-items: center;
+    float: left;
+    display: block;
+}
+.graphs img{
+    padding: 6px;
+    float: left;
+}
